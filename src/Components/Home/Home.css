@@ -1,0 +1,11 @@
+.homeText {
+    background-color: rgb(128, 128, 128, .7);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.emp {
+    color: rgb(241, 32, 32);
+}

@@ -15,6 +15,8 @@
 
 .App-header {
   background-color: #282c34;
+  background-image: url(https://www.tutorlodge.com/wp-content/uploads/2018/06/moving-backgrounds.jpg);
+  background-attachment: fixed;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +37,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.componentWrapper {
+  min-height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
